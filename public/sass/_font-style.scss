@@ -1,0 +1,37 @@
+// @mixin
+//@return line height props
+
+@mixin lineheight($props) {
+	line-height: $props;
+}
+
+/*fonts family*/
+
+%open-sans {
+	font-family: Open Sans !important;
+}
+
+%nunito {
+	font-family: Nunito !important;
+}
+
+%ubuntu {
+	font-family: Ubuntu !important;
+}
+
+.nunito {
+	@extend %nunito;
+}
+
+.open-sans {
+	@extend %open-sans;
+}
+
+.ubuntu {
+	@extend %ubuntu;
+}
+
+//font sizes
+
+
+

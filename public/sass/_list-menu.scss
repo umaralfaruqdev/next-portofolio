@@ -1,0 +1,49 @@
+.list-menu-section {
+	padding-top: 50px;
+}
+
+.list-menu-section > .list-menu-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.list-menu-section > .list-menu-container > .list-menu {
+	display: flex;
+	align-items: center;
+	min-height: 50px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+.list-menu-section > .list-menu-container > .list-menu > .list-link {
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px 15px;
+	font-weight: 700;
+	color: #666;
+	font-family: Nunito;
+}
+
+.list-menu-section > .list-menu-container > .list-menu > .list-link:not(.active):hover {
+	color: #999;
+}
+
+.list-menu-section > .list-menu-container > .list-menu > .list-link.active {
+	background-color: #f7f7f7;
+	border-radius: 3px;
+}
+
+
+.list-menu-section > .list-menu-container .list-filter-button {
+	border: 1px solid #f7f7f7;
+	background-color: #f7f7f7;
+	border-radius: 3px;
+	color: #555;
+	white-space: nowrap;
+	margin-left: 15px;
+}
+
+.list-menu-section > .list-menu-container .list-filter-button > .fas {
+	font-size: 14px;
+}

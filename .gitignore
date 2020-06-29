@@ -1,6 +1,7 @@
 node_modules
 .next
 public/*
+!public/css
 !public/sass
 !public/images
 !public/favi
